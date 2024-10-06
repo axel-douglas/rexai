@@ -1,0 +1,44 @@
+# Ignorar datos y modelos grandes
+/data/
+/models/
+
+# Ignorar el entorno virtual o de Conda
+/rexai-env/
+*.env
+*.venv
+env/
+venv/
+
+# Ignorar archivos de cache de Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de log y otros generados durante la ejecución
+*.log
+*.out
+*.txt
+
+# Archivos de salida o temporales generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos creados por el entorno de desarrollo
+.vscode/
+.idea/
+*.swp
+
+# Ignorar archivos de checkpoints o pesados de entrenamiento
+*.ckpt
+*.h5
+*.pt
+*.weights
+
+# Archivos de notebooks ejecutados (si llegas a tenerlos)
+.ipynb_checkpoints/
+
+# Ignorar archivos grandes que no deben subirse
+*.tif
+*.jpg
+*.png
+*.zip

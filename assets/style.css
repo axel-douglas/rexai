@@ -1,0 +1,135 @@
+/* Estilo inspirado en la estética minimalista y moderna de SpaceX */
+
+/* General */
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 300;
+}
+
+/* Títulos */
+h1.title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+h2.subtitle {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+h2.section-title {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+/* Descripciones */
+.description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #d4d4d4;
+}
+
+/* Botones */
+.stButton > button {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #2d2d2d;
+    cursor: pointer;
+}
+
+/* Campos de Entrada */
+input[type=number], select {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+/* Gráficos */
+.plotly-graph {
+    background-color: #0d0d0d;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+/* Contenedores */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+    color: #888;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #555;
+    margin: 2rem 0;
+}
+
+/* Formularios */
+form {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin-bottom: 2rem;
+}
+
+/* Columnas */
+.stColumns > div {
+    padding: 0.5rem;
+}
+
+/* Scrollbar personalizado */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+} 
