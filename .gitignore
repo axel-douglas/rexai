@@ -1,6 +1,9 @@
 # Ignorar datos y modelos grandes
 /data/
 /models/
+# No ignorar la carpeta shp dentro de data
+!data/shp/
+!data/shp/**
 
 # Ignorar el entorno virtual o de Conda
 /rexai-env/
